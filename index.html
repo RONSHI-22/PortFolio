@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        http-equiv="Content-Security-Policy"
+        content="default-src 'self';
+                script-src 'self';
+                style-src 'self';
+                img-src 'self' https: data:;
+                object-src 'none';
+                base-uri 'self';
+                form-action 'self';
+                upgrade-insecure-requests;"
+        >
+
+    <meta name="description" content="Ronshi's personal portfolio showcasing web projects, digital artwork, and photo editing.">
+
+    <title>Ronshi | Personal Portfolio</title>
+    <link rel="icon" type="image/png" href="Pictures/icons.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="#home" class="logo">RONSHI<span>.</span></a>
+
+        <nav aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#artworks">Artworks</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hello, I'm <span>Ronshi.</span></h1>
+
+            <h2>BSIT Graduate & Creative Explorer</h2>
+
+            <p class="hero-description">
+                I enjoy learning new things, building websites,
+                exploring creativity, and turning ideas into reality.
+            </p>
+
+            <a href="#about" class="button">GET TO KNOW ME </a>
+        </div>
+
+        <div class="hero-visual">
+            <!-- Replace with your own photo -->
+            <img src="Pictures/Crow.jpg" alt="Portrait of Ronshi">
+            <span class="image-label">A LITTLE ABOUT ME — 2026</span>
+        </div>
+
+        <div class="scroll-indicator">SCROLL TO EXPLORE</div>
+    </section>
+
+    <main>
+
+        <!-- Social Media -->
+        <section class="socials section" id="socials">
+            <div class="section-heading">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Find me <span>online.</span></h2>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.facebook.com/" target="_blank"
+                   rel="noopener noreferrer">Facebook ↗</a>
+
+                <a href="https://www.instagram.com/" target="_blank"
+                   rel="noopener noreferrer">Instagram ↗</a>
+
+                <a href="https://www.tiktok.com/" target="_blank"
+                   rel="noopener noreferrer">TikTok ↗</a>
+
+                <a href="https://github.com/" target="_blank"
+                   rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+        </section>
+
+        <!-- About Me -->
+        <section class="about section" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">WHO AM I?</p>
+                <h2>About <span>Me.</span></h2>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>A learner, a creator, and a work in progress.</h3>
+
+                    <p>
+                        I'm a BSIT graduate who enjoys exploring technology,
+                        developing websites, and creating digital content.
+                        I'm always looking for opportunities to improve my
+                        skills and learn from other people's experiences.
+                    </p>
+
+                    <p>
+                        My interests include frontend development, digital
+                        art, photo editing, and discovering new creative ideas.
+                    </p>
+                </div>
+
+                <div class="contact-info" id="contact">
+                    <p class="eyebrow">GET IN TOUCH</p>
+                    <h3>Let's work together.</h3>
+
+                    <!-- Replace with your professional email -->
+                    <a href="mailto:your.ronbayson10000@gmail.com">
+                        ronbayson10000@gmail.com
+                    </a>
+
+                    <p class="contact-note">
+                        <h2>09853665530</h2>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="projects section" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I'VE BEEN WORKING ON</p>
+                <h2>Selected <span>Projects.</span></h2>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="/Pictures/pandacage.png"
+                             alt="Preview of personal website">
+                        <span class="project-number">01</span>
+                    </div>
+
+                    <div class="project-details">
+                        <h3>pandacafe</h3>
+                        <p>HTML · CSS · JavaScript</p>
+                        <a href="https://pandacafe.onrender.com/index.html">View Project ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="/Pictures/confession web.png"
+                             alt="Preview of web development project">
+                        <span class="project-number">02</span>
+                    </div>
+
+                    <div class="project-details">
+                        <h3>Confession Web</h3>
+                        <p>A site where you can tell what you want, using alias</p>
+                        <a href="https://confession-web-88ol.onrender.com/"
+                           rel="noopener noreferrer">View Project ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/project-3.jpg"
+                             alt="Preview of creative project">
+                        <span class="project-number">03</span>
+                    </div>
+
+                    <div class="project-details">
+                        <h3>Creative Experiments</h3>
+                        <p>Design · Personal Projects</p>
+                        <a href="#" target="_blank"
+                           rel="noopener noreferrer">View Project ↗</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Digital Artworks -->
+        <section class="artworks section" id="artworks">
+            <div class="section-heading">
+                <p class="eyebrow">MADE WITH CREATIVITY</p>
+                <h2>Digital <span>Artworks.</span></h2>
+            </div>
+
+            <div class="gallery">
+                <img src="/Pictures/OC_GABBY_20260926101522.jpg" alt="Digital artwork 1" loading="lazy">
+                <img src="/Pictures/complete_20260808124342.png" alt="Digital artwork 2" loading="lazy">
+                <img src="images/art-3.jpg" alt="Digital artwork 3" loading="lazy">
+            </div>
+        </section>
+
+        <!-- Photo Editing -->
+        <section class="photo-editing section">
+            <div class="section-heading">
+                <p class="eyebrow">BEFORE THE FINAL FRAME</p>
+                <h2>Photo <span>Editing.</span></h2>
+            </div>
+
+            <div class="gallery">
+                <img src="/Pictures/SAMPLE PRODUCT.png" alt="Photo editing sample 1" loading="lazy">
+                <img src="images/edit-2.jpg" alt="Photo editing sample 2" loading="lazy">
+                <img src="images/edit-3.jpg" alt="Photo editing sample 3" loading="lazy">
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#home" class="logo">RONSHI<span>.</span></a>
+
+        <p>Designed and built with curiosity.</p>
+
+        <a href="#home" class="back-to-top">BACK TO TOP ↑</a>
+
+        <p class="copyright">© 2026 Ronshi. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
